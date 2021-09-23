@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfOnThi", "WcfOnThi\WcfOnThi.csproj", "{4C436124-3416-4C90-91AF-53EDE876550D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_OnthiMVC", "WebApp_OnthiMVC\WebApp_OnthiMVC.csproj", "{698E0326-F325-4C0B-A84E-C8DF932F89AF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4C436124-3416-4C90-91AF-53EDE876550D} = {4C436124-3416-4C90-91AF-53EDE876550D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C436124-3416-4C90-91AF-53EDE876550D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C436124-3416-4C90-91AF-53EDE876550D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C436124-3416-4C90-91AF-53EDE876550D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C436124-3416-4C90-91AF-53EDE876550D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698E0326-F325-4C0B-A84E-C8DF932F89AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698E0326-F325-4C0B-A84E-C8DF932F89AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698E0326-F325-4C0B-A84E-C8DF932F89AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698E0326-F325-4C0B-A84E-C8DF932F89AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C107E7F-5A05-4EF6-9B4E-B1B9D4ACCDBD}
+	EndGlobalSection
+EndGlobal
